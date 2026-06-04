@@ -1,0 +1,73 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c8b6ff, #bde0fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 320px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input {
+    width: 85%;              
+    padding: 10px;
+    margin: 10px auto;       
+    display: block;          
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1a237e;
+    box-shadow: 0 0 5px rgba(26, 35, 126, 0.3);
+}
+
+button {
+    width: 85%;              
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    background: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d145a;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
